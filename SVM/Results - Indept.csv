@@ -1,0 +1,15 @@
+Dependency,Model Name,Domain,Channels,Window Size,Step Size,VAL,ARO,VALARO,AROVAL,Best Combination,Best Acc,HP_VAL,HP_ARO,HP_VALARO,HP_AROVAL,Time taken
+Independent,SVM-CUSTOM,TF,5,1,1,63.36,64.34,65.56,66.86,VALxAROVAL,0.423618843,"C:1, gamma:1","C:1, gamma:1","C:1, gamma:1","C:1, gamma:1",6123.02
+Independent,SVM-Baseline-CUSTOM,TF,5,1,1,79.58,80.54,81.68,82.57,AROxVALARO,0.657878451,"C:50, gamma:1","C:50, gamma:1","C:50, gamma:1","C:50, gamma:1",5873.03
+Independent,SVM-CUSTOM,TF,5,3,3,64.86,65.96,67.24,68.42,VALxAROVAL,0.44378069,"C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf",271.21
+Independent,SVM-Baseline-CUSTOM,TF,5,3,3,80.7,81.41,82.75,83.44,AROxVALARO,0.673628744,"C:50, gamma:1, kernel:rbf","C:50, gamma:1, kernel:rbf","C:50, gamma:1, kernel:rbf","C:50, gamma:1, kernel:rbf",367.74
+Independent,SVM-CUSTOM,TF,5,5,5,65.3,66.29,67.69,69.17,VALxAROVAL,0.451727434,"C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf",84.57
+Independent,SVM-CUSTOM,TF,5,7,7,65.28,66.19,67.62,68.41,AROxVALARO,0.447575433,"C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf",49.1
+Independent,SVM-CUSTOM,TF,5,9,9,65.88,66.65,67.53,68.43,VALxAROVAL,0.450832181,"C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf",32.42
+Independent,SVM,TF,32,1,1,0.64,0.66,0.68,0.7,VALxAROVAL,0.45,"C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf",27126.15
+Independent,SVM-Baseline,TF,32,1,1,0.83,0.84,0.85,0.86,AROxVALARO,0.72,"C:50, gamma:1","C:50, gamma:1","C:50, gamma:1, kernel:rbf","C:300, gamma:1, kernel:rbf",18148.35
+Independent,SVM,TF,32,3,3,0.63,0.65,0.67,0.69,VALxAROVAL,0.44,"C:50, gamma:1, kernel:rbf","C:300, gamma:0.001, kernel:rbf","C:1, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf",1586.14
+Independent,SVM-Baseline,TF,32,3,3,0.82,0.83,0.83,0.84,AROxVALARO,0.68,"C:50, gamma:1, kernel:rbf","C:200, gamma:1, kernel:rbf","C:50, gamma:1, kernel:rbf","C:50, gamma:1, kernel:rbf",1749.83
+Independent,SVM,TF,32,5,5,0.64,0.65,0.68,0.68,AROxVALARO,0.44,"C:50, gamma:1, kernel:rbf","C:300, gamma:0.001, kernel:rbf","C:50, gamma:1, kernel:rbf","C:1, gamma:1, kernel:rbf",574.02
+Independent,SVM,TF,32,7,7,0.63,0.64,0.67,0.69,VALxAROVAL,0.43,"C:50, gamma:1, kernel:rbf","C:100, gamma:0.001, kernel:rbf","C:100, gamma:1, kernel:rbf","C:50, gamma:1, kernel:rbf",335.4
+Independent,SVM,TF,32,9,9,0.62,0.65,0.67,0.66,AROxVALARO,0.43,"C:100, gamma:0.001, kernel:rbf","C:200, gamma:0.001, kernel:rbf","C:50, gamma:1, kernel:rbf","C:200, gamma:0.001, kernel:rbf",169.98

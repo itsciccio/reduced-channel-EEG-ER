@@ -1,0 +1,9 @@
+Dependency,Model Name,Domain,Channels,Window Size,Step Size,Hyperparams,Target,Mean
+Independent,3DCNN-Baseline,Stacked,5,1,1,50 epochs; 10 folds; 4x4 kernel on 5x5 image,ARO,57.58
+Independent,3DCNN-Baseline,Stacked,5,1,1,50 epochs; 10 folds; 4x4 kernel on 5x5 image,VAL,55.31
+Independent,3DCNN,Stacked,5,1,1,50 epochs; 10 folds; 4x4 kernel on 5x5 image,ARO,57.58
+Independent,3DCNN,Stacked,5,1,1,50 epochs; 10 folds; 4x4 kernel on 5x5 image,VAL,55.31
+Independent,3DCNN-Baseline,Stacked,5,3,3,50 epochs; 10 folds; 4x4 kernel on 5x5 image,ARO,57.58
+Independent,3DCNN-Baseline,Stacked,5,3,3,50 epochs; 10 folds; 4x4 kernel on 5x5 image,VAL,55.31
+Independent,3DCNN,Stacked,5,3,3,50 epochs; 10 folds; 4x4 kernel on 5x5 image,ARO,57.58
+Independent,3DCNN,Stacked,5,3,3,50 epochs; 10 folds; 4x4 kernel on 5x5 image,VAL,55.31
